@@ -1,0 +1,65 @@
+FCOM=gfortran
+
+CPPFLAGS=-E
+COMPFLAGS=
+
+EXE=hello
+
+SOURCES=
+example_2_Ejercicio_1.f90,
+example_3_Ejercicio_1.f90,
+example_4_Ejercicio_2.f90,
+example_5_Ejercicio_2.f90,
+example_6_Ejercicio_3.f90,
+example_7_Ejercicio_4.f90,
+example_8_Ejercicio_4.f90,
+example_9_Ejercicio_5.f90
+example_10_Ejercicio_6.f90
+example_11_Ejercicio_7.f90,
+example_12_Ejercicio_8.f90,
+example_13_Ejercicio_8.f90,
+example_14_Ejercicio_9.f90,
+example_15_Ejercicio_9.f90,
+example_16_Ejercicio_10.f90,
+example_17_Ejercicio_11.f90,
+example_18_Ejercicio_12.f90,
+example_19_Ejercicio_12.f90,
+example_20_Ejercicio_13.f90,
+example_21_Ejercicio_14.f90,
+example_22_Ejercicio_14.f90,
+example_23_Ejercicio_15.f90,
+example_24_Ejercicio_16.f90,
+example_25_Ejercicio_16.f90,
+example_26_Ejercicio_17.f90,
+example_27_Ejercicio_18.f90,
+example_28_Ejercicio_19.f90,
+example_29_Ejercicio_19.f90,
+example_30_Ejercicio_20.f90,
+example_30_Ejercicio_20_Complex_Numbers.f90,
+example_31_Ejercicio_21_Multiplicacion_Rusa.f90,
+example_32_Ejercicio_22_Random_numbers.f90
+
+
+MODS=words_schleppe.F words_schnuppi.F
+
+OBJS=$(SOURCES:.F=.o)
+MODOBJS=$(MODS:.F=.o)
+
+# this may also be replaced by the ar command (creating archive)
+all: $(MODOBJS) $(OBJS)
+    $(FCOM) $(OBJS) $(MODOBJS) -o $(EXE)
+
+%.for: %.F
+    rm -f $*.for
+    $(FCOM) $(CPPFLAGS) $*.F > $*.for
+
+$(MODOBJS): %.o: %.for
+    $(FCOM) -c -o $@ $(COMPFLAGS) $*.for
+
+$(OBJS): %.o: %.for
+    $(FCOM) -c -o $@ $(COMPFLAGS) $*.for
+
+# clean: remove .for, .o, .do, and .stb files
+.PHONY: clean
+clean:
+    -rm -f *.for *.o *.stb *.mod

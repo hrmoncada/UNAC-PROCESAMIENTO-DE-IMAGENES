@@ -1,0 +1,7 @@
+all: out2 out3 out4
+out2: example_2_Ejercicio_1.f90
+	gfortran -o out2 example_2_Ejercicio_1.f90
+out3: example_3_Ejercicio_1.f90
+	gfortran -o out3 example_3_Ejercicio_1.f90
+out4: example_4_Ejercicio_2.f90
+	gfortran -o out4 example_4_Ejercicio_2.f90

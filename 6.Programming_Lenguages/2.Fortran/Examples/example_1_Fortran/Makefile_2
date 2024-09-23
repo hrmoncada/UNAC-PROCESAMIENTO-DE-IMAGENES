@@ -1,0 +1,8 @@
+FF = gfortran
+
+objects = example_2_Ejercicio_1 example_3_Ejercicio_1 example_4_Ejercicio_2
+
+all: $(objects)
+
+$(objects): %: %.f90
+	$(FF) -o $@ $<
