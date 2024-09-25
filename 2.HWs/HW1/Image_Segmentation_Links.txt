@@ -1,0 +1,37 @@
+WEBPAGE LINKS:
+
+1. Image Segmentation using Python’s scikit-image module
+https://www.geeksforgeeks.org/image-segmentation-using-pythons-scikit-image-module/
+
+2. Image segmentation guide for Python 
+https://ai.google.dev/edge/mediapipe/solutions/vision/image_segmenter/python
+
+3. Segmentation
+https://scikit-image.org/skimage-tutorials/lectures/4_segmentation.html
+
+4. Image Segmentation Algorithms With Implementation in Python – An Intuitive Guide
+https://www.analyticsvidhya.com/blog/2021/09/image-segmentation-algorithms-with-implementation-in-python/
+
+5. Python: Image Segmentation
+https://www.askpython.com/python/examples/image-segmentation
+
+6. Coursera-Deep-Learning/Advanced Computer Vision with TensorFlow/Week 3 - Image Segmentation
+https://github.com/y33-j3T/Coursera-Deep-Learning.git
+https://github.com/y33-j3T/Coursera-Deep-Learning/blob/master/Advanced%20Computer%20Vision%20with%20TensorFlow/Week%203%20-%20Image%20Segmentation/Copy%20of%20C3_W3_Lab_2_OxfordPets-UNet.ipynb
+
+7. ALGORITMOS DE PROCESAMIENTO DE IMAGEN, APLICADOS A LA DETECCIÓN DE FIGURAS, GEOMETRICAS Y SUS PROPIEDADES ESPACIALES, SAN-HO YOON BUSTAMANTE 
+http://opac.pucv.cl/pucv_txt/Txt-4500/UCE4968_01.pdf
+
+8. Python Numpy Tutorial (with Jupyter and Colab)
+https://cs231n.github.io/python-numpy-tutorial/
+
+VIDEOS:
+
+1. ¿QUE ES LA SEGMENTACION POR INSTANCIA? Curso desde cero | Mask RCNN Python OpenCV
+https://www.youtube.com/watch?v=YZrimWng3Jg
+
+2. APRENDE A SEGMENTAR OBJETOS EN IMAGENES DESDE CERO | Mask RCNN Python OpenCV
+https://www.youtube.com/watch?v=GvFmlQH_9zY
+
+3. APRENDE A SEGMENTAR OBJETOS EN TIEMPO REAL DESDE CERO | Mask RCNN Python OpenCV
+https://www.youtube.com/watch?v=ZQh029ZnOuQ
