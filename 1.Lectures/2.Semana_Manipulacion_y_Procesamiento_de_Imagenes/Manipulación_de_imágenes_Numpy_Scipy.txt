@@ -23,6 +23,12 @@ https://omes-va.com/contando-objetos-aplicando-deteccion-de-bordes-con-canny-en-
 https://github.com/ArielXL/edges-detection
 
 
+
+https://saturncloud.io/blog/converting-numpy-array-values-into-integers-a-comprehensive-guide/#:~:text=Numpy%20astype()%20Method%3A&text=The%20astype(int)%20function%20converts,rounding%20to%20the%20nearest%20integer.
+
+https://stackoverflow.com/questions/25458442/rotate-a-2d-image-around-specified-origin-in-python
+
+https://stackoverflow.com/questions/73757281/creating-a-grayscale-image-from-an-array-of-values
 ====================================================================================
 VIDEOS:
 ====================================================================================
@@ -40,8 +46,5 @@ HOMEWORK:
 ====================================================================================
 1. Introducción al procesamiento digital de imágenes con Python
 https://www.unioviedo.es/compnum/laboratorios_py/new/introduccion_imagen.html
-
-
-
 
 
