@@ -1,5 +1,16 @@
-WEBPAGE LINKS:
+====================================================================================L
+ABORAROTY:
+====================================================================================
+https://ai.google.dev/edge/mediapipe/solutions/vision/image_segmenter/python
+https://scikit-image.org/skimage-tutorials/lectures/4_segmentation.html
+https://github.com/shrutisingala/opencv-Image-Segmentation.git
+https://www.analyticsvidhya.com/blog/2021/09/image-segmentation-algorithms-with-implementation-in-python/
+https://www.geeksforgeeks.org/image-segmentation-using-pythons-scikit-image-module/
+https://www.askpython.com/python/examples/image-segmentation
 
+====================================================================================
+WEBPAGE LINKS:
+====================================================================================
 1. Image Segmentation using Python’s scikit-image module
 https://www.geeksforgeeks.org/image-segmentation-using-pythons-scikit-image-module/
 
@@ -25,8 +36,15 @@ http://opac.pucv.cl/pucv_txt/Txt-4500/UCE4968_01.pdf
 8. Python Numpy Tutorial (with Jupyter and Colab)
 https://cs231n.github.io/python-numpy-tutorial/
 
-VIDEOS:
+9. Filtros para la deteccion de bordes de una imagen con Python 3 (Parte 1)
+https://pythoneyes.wordpress.com/2017/07/28/filtros-para-la-deteccion-de-bordes-de-una-imagen-con-python-3-parte-1/
 
+10. Filtros para la deteccion de bordes de una imagen con Python 3 (Parte 2)
+https://pythoneyes.wordpress.com/tag/deteccion-de-bordes/
+
+====================================================================================
+VIDEOS:
+====================================================================================
 1. ¿QUE ES LA SEGMENTACION POR INSTANCIA? Curso desde cero | Mask RCNN Python OpenCV
 https://www.youtube.com/watch?v=YZrimWng3Jg
 

@@ -1,0 +1,47 @@
+==================================================================
+Manipulación y procesamiento de imágenes usando Numpy y Scipy
+==================================================================
+
+====================================================================================
+WEBPAGE LINKS:
+====================================================================================
+1. Manipulación y procesamiento de imágenes usando Numpy y Scipy
+https://claudiovz.github.io/scipy-lecture-notes-ES/advanced/image_processing/index.html
+
+2. Procesamiento de imágenes con Python y Numpy
+https://facundoq.github.io/courses/images/res/04_imagenes_numpy.html
+https://github.com/ksandeshh/DataFilesForMLnDL/blob/master/prretty.png
+
+3. Ejercicios básicos de procesamiento de imágenes 
+http://lapi.fi-p.unam.mx/wp-content/uploads/Ejercicios-b%C3%A1sicos-de-procesamiento-de-im%C3%A1genes.pdf
+
+
+4. ? CONTANDO OBJETOS (Aplicando detección de bordes con CANNY) en Python-OpenCV
+https://omes-va.com/contando-objetos-aplicando-deteccion-de-bordes-con-canny-en-python-opencv/
+
+5. ArielXL/edges-detection
+https://github.com/ArielXL/edges-detection
+
+
+====================================================================================
+VIDEOS:
+====================================================================================
+
+1. Manipulación de Imagenes con NumPy [Python]
+https://www.youtube.com/watch?v=GzMRM2jIB2Q
+
+====================================================================================L
+LAB:
+====================================================================================
+
+
+====================================================================================
+HOMEWORK:
+====================================================================================
+1. Introducción al procesamiento digital de imágenes con Python
+https://www.unioviedo.es/compnum/laboratorios_py/new/introduccion_imagen.html
+
+
+
+
+

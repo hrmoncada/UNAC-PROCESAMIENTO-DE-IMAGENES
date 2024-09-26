@@ -1,7 +1,0 @@
-https://ai.google.dev/edge/mediapipe/solutions/vision/image_segmenter/python
-https://scikit-image.org/skimage-tutorials/lectures/4_segmentation.html
-https://github.com/shrutisingala/opencv-Image-Segmentation.git
-https://www.analyticsvidhya.com/blog/2021/09/image-segmentation-algorithms-with-implementation-in-python/
-https://www.geeksforgeeks.org/image-segmentation-using-pythons-scikit-image-module/
-
-https://www.askpython.com/python/examples/image-segmentation
