@@ -15,14 +15,15 @@ https://github.com/ksandeshh/DataFilesForMLnDL/blob/master/prretty.png
 3. Ejercicios básicos de procesamiento de imágenes 
 http://lapi.fi-p.unam.mx/wp-content/uploads/Ejercicios-b%C3%A1sicos-de-procesamiento-de-im%C3%A1genes.pdf
 
-
-4. ? CONTANDO OBJETOS (Aplicando detección de bordes con CANNY) en Python-OpenCV
-https://omes-va.com/contando-objetos-aplicando-deteccion-de-bordes-con-canny-en-python-opencv/
-
-5. ArielXL/edges-detection
-https://github.com/ArielXL/edges-detection
+4. Procesamiento de imágenes #04 - Transformaciones de intensidad
+https://github.com/luiscib3r/Procesamiento-de-Imagenes/blob/master/04-Transformaciones%20de%20intensidad.ipynb
 
 
+https://www.unioviedo.es/compnum/laboratorios_py/new/introduccion_imagen.html
+
+https://www.herevego.com/analisis-de-imagen-con-python/
+
+https://cloudinary.com/guides/image-effects/a-guide-to-converting-images-to-grayscale-with-python-introduction
 
 https://saturncloud.io/blog/converting-numpy-array-values-into-integers-a-comprehensive-guide/#:~:text=Numpy%20astype()%20Method%3A&text=The%20astype(int)%20function%20converts,rounding%20to%20the%20nearest%20integer.
 
