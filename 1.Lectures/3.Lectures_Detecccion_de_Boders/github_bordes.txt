@@ -1,0 +1,8 @@
+1.Detección de bordes
+https://github.com/LuisAlejandroSalcedo/Procesamiento-de-Imagenes-con-Python-y-Scikit-Image
+
+6. ArielXL/edges-detection
+https://github.com/ArielXL/edges-detection
+
+9. Filtro de Mediana y detección de bordes
+https://github.com/jdelarosa91/median-filter_edge-detection
