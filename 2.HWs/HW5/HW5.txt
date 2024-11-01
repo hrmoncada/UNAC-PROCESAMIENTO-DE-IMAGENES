@@ -1,0 +1,15 @@
+PARTE 1 : Usando su propio codijo en python obtenga los resultados mostrados en la pagina web, seccion: Convolución en dos dimensiones. Filtrado de imágenes
+https://www.unioviedo.es/compnum/laboratorios_web/laborat07c_convolucion/lab07c_convolucion.html
+
+PARTE 2:   Contruir una interface usand Shiny Layouts:
+
+https://shiny.posit.co/py/docs/overview.html
+https://shiny.posit.co/py/layouts/
+https://shiny.posit.co/py/components/outputs/image/index.html
+https://stackoverflow.com/questions/78146532/display-image-using-shiny-in-python
+
+Su interface debe contar con estas minimas herramientas para ser considerado:
+1. Subir tu imagen
+2. Separa tu imagen usando colore (rojo, verde, azul)
+3. Contruir un Zoom-in Zoom-out
+4. Convertir image a grises

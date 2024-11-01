@@ -1,2 +1,0 @@
-Usando su propio codijo en python obtenga los resultados mostrados en la pagina web, seccion: Convolución en dos dimensiones. Filtrado de imágenes
-https://www.unioviedo.es/compnum/laboratorios_web/laborat07c_convolucion/lab07c_convolucion.html
