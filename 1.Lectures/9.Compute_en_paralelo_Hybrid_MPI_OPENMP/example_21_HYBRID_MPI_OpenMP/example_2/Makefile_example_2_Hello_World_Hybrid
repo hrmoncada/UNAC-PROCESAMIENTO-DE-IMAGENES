@@ -1,0 +1,27 @@
+BINS:= mpi greetings omp hybrid
+
+all: $(BINS)
+
+mpi: mpi-hello.c
+	mpicc -o mpi mpi-hello.c
+
+greetings: mpi-greetings.c
+	mpicc -o greetings mpi-greetings.c
+
+omp: omp-hello.c
+	gcc -fopenmp -o omp omp-hello.c
+
+hybrid: hybrid.c
+	mpicc -openmp -lgomp -o hybrid hybrid.c
+
+test: $(BINS)
+	@echo "Test MPI..."
+	@mpirun -np 4 ./mpi
+	@mpirun -np 4 ./greetings
+	@echo "Test OpenMP..."
+	@./omp
+	@echo "Test Hybrid..."
+	@mpirun -np 4 ./hybrid
+
+clean:
+	@rm -f $(BINS)

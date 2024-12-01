@@ -1,0 +1,111 @@
+1. CPU (Central Processing Unit): Refers to the physical chip that processes instructions. A system can have multiple CPUs.
+2. Core: A core is a processing unit within a CPU. Modern CPUs often have multiple cores, which allows them to perform multiple tasks simultaneously.
+3. Thread: A thread is the smallest sequence of programmed instructions that can be managed independently by a scheduler. Many modern CPUs support simultaneous multithreading (SMT), allowing each core to handle multiple threads.
+
+The difference between CPUs, cores, and threads is crucial for several reasons:
+
+1. Performance Optimization: Knowing how many cores and threads your CPU has can help you optimize applications for parallel processing, improving performance for multi-threaded applications.
+2. Resource Allocation: In server environments, understanding CPU architecture is essential for resource allocation to ensure efficient operation.
+3. System Design: When designing or purchasing hardware, knowing these specifications helps in making informed decisions based on workload requirements.
+Recommended Reading
+
+For a deeper understanding of CPU architecture and performance, consider the following topics and resources:
+
+1. Computer Architecture: Books like "Computer Organization and Design" by Patterson and Hennessy provide insights into how CPUs work.
+2. Operating Systems: "Operating System Concepts" by Silberschatz, Galvin, and Gagne covers how operating systems manage hardware resources, including CPUs.
+3. Parallel Programming: "Parallel Programming in C with MPI and OpenMP" introduces concepts of multi-threading and parallel processing.
+
+These resources will give you a solid grounding in the terminology and its practical applications in computing.
+===============================================================================
+Install openmp Linux-Ubuntu
+$ sudo apt-get install libomp-dev
+
+How to check the version of OpenMP on Linux
+
+(base) lola:C$ gcc --version 
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+(base) lola:C$ echo |cpp -fopenmp -dM |grep -i open
+#define _OPENMP 201511
+===============================================================================
+https://www.cyberciti.biz/faq/check-how-many-cpus-are-there-in-linux-system/
+Get the number of total core include thread
+
+$ lscpu
+$ cat /proc/cpuinfo
+
+(base) lola:C$ echo "Threads/core: $(nproc --all)"
+Threads/core: 8
+
+(base) lola:C$ hwinfo --cpu --short 
+Command 'hwinfo' not found, but can be installed with:
+sudo apt install hwinfo
+
+
+Find the total threads, multiply the number of cores by the threads per core.
+
+CPU(s):                   8
+Thread(s) per core:       2
+Total threads: 8 (CPU core[4] * Thread per core [2])
+===============================================================================
+(base) lola:C$ lscpu
+Architecture:             x86_64
+  CPU op-mode(s):         32-bit, 64-bit
+  Address sizes:          39 bits physical, 48 bits virtual
+  Byte Order:             Little Endian
+CPU(s):                   8
+  On-line CPU(s) list:    0-7
+Vendor ID:                GenuineIntel
+  Model name:             Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+    CPU family:           6
+    Model:                94
+    Thread(s) per core:   2
+    Core(s) per socket:   4
+    Socket(s):            1
+    Stepping:             3
+    CPU max MHz:          3500.0000
+    CPU min MHz:          800.0000
+    BogoMIPS:             5199.98
+    Flags:                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 cl
+                          flush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm
+                           constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_ts
+                          c cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl est tm2 ssse3 sdbg 
+                          fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_tim
+                          er aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb pti
+                           ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid
+                           mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dt
+                          herm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush
+                          _l1d arch_capabilities
+Caches (sum of all):      
+  L1d:                    128 KiB (4 instances)
+  L1i:                    128 KiB (4 instances)
+  L2:                     1 MiB (4 instances)
+  L3:                     6 MiB (1 instance)
+NUMA:                     
+  NUMA node(s):           1
+  NUMA node0 CPU(s):      0-7
+Vulnerabilities:          
+  Gather data sampling:   Vulnerable: No microcode
+  Itlb multihit:          KVM: Mitigation: VMX unsupported
+  L1tf:                   Mitigation; PTE Inversion
+  Mds:                    Mitigation; Clear CPU buffers; SMT vulnerable
+  Meltdown:               Mitigation; PTI
+  Mmio stale data:        Mitigation; Clear CPU buffers; SMT vulnerable
+  Reg file data sampling: Not affected
+  Retbleed:               Mitigation; IBRS
+  Spec rstack overflow:   Not affected
+  Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:             Mitigation; IBRS; IBPB conditional; STIBP conditional; RSB filling; PBRSB-
+                          eIBRS Not affected; BHI Not affected
+  Srbds:                  Mitigation; Microcode
+  Tsx async abort:        Mitigation; TSX disabled
+
+
+
+
+
+

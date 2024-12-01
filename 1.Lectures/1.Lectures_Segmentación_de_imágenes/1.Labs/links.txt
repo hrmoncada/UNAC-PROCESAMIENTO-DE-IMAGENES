@@ -1,7 +1,27 @@
+
+==================
+Packages MediaPipe Image Segmenter task
+==================
+Image segmentation guide for Python 
 https://ai.google.dev/edge/mediapipe/solutions/vision/image_segmenter/python
-https://scikit-image.org/skimage-tutorials/lectures/4_segmentation.html
+
+==================
+Packages OpenCV 
+==================
+opencv-Image-Segmentation
 https://github.com/shrutisingala/opencv-Image-Segmentation.git
+
+Image Segmentation Algorithms With Implementation in Python – An Intuitive Guide
 https://www.analyticsvidhya.com/blog/2021/09/image-segmentation-algorithms-with-implementation-in-python/
+
+Image Segmentation using Python’s scikit-image module
 https://www.geeksforgeeks.org/image-segmentation-using-pythons-scikit-image-module/
 
+Python: Image Segmentation
 https://www.askpython.com/python/examples/image-segmentation
+
+==================
+Package scikit-image 
+==================
+Image analysis in Python
+https://scikit-image.org/skimage-tutorials/lectures/4_segmentation.html
