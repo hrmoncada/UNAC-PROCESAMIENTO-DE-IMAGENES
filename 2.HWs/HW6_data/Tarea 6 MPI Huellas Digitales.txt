@@ -1,0 +1,13 @@
+Tarea 6 MPI Huellas Digitales
+
+Utilizar los resultados de la tarea 4 sobre e implementar una versión paralela del proyecto.
+Además, se debe redactar un artículo que incluya un análisis comparativo entre la versión en serie y la versión paralela desarrollada. Este artículo debe estar estructurado de la siguiente manera:
+
+Resumen de los objetivos, metodología, resultados y conclusiones.
+Explicación del problema abordado, su importancia, y los objetivos principales del proyecto.
+Cuerpo : eplicacion del metodo utlizado para resolver el problema
+Resumen de los hallazgos principales y posibles direcciones futuras.
+Implementación del código en serie para cada método relacionado con las huellas dactilares.
+Implementación de la versión paralela utilizando MPI (Interfaz de paso de mensajes) 
+
+Los códigos desarrollados deben estar escritos en el lenguaje de programación de tu preferencia y deben justificar los resultados del proyecto. La comparación de las versiones en serie y paralela debe incluir métricas como el tiempo de ejecución, escalabilidad, y eficiencia.

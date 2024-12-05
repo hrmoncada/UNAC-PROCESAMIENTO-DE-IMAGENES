@@ -1,0 +1,37 @@
+Links : 
+https://www.unioviedo.es/compnum/laboratorios_py/Fourier/Fourier2D.html
+https://phuijse.github.io/UACH-INFO185/chapters/image-processing/filters.html
+https://notebook.community/cosmolejo/Fisica-Experimental-3/Fourier/Clase3/.ipynb_checkpoints/Tranf.Fourier.2D-checkpoint
+http://www.sc.ehu.es/sbweb/fisica3/simbolico/fourier/fourier_1.html
+https://medium.com/@mhconradt/image-compression-from-scratch-in-python-ee357fea3f9e
+
+Archivo ZIP,  RAR (Comprimir archivos)
+Tarea_#_Apellido_Nombre/
+    |--Tarea_#_Apellido_Nombre.pdf
+    |--Program/Pregunta_1.py
+    |--Program/Pregunta_2.py
+     .
+    |  
+    |--Program/Pregunta_N.py
+    |--Images/figuras
+
+Nota: El PDF es el reporte de la Tarea, por lo que debe incluir conclusiones para cada pregunta. Cada conclusión debe consistir en una descripción en tus propias palabras de lo que realiza cada programa, además de ofrecer una explicación de los resultados. toda tarea que no cuente con sus conclusion es
+ 50% de la nota
+Empiece (https://www.unioviedo.es/compnum/laboratorios_py/Fourier/Fourier2D.html) usando la siguiente funcion  A1 = np.sin(hFrec*2*np.pi*X) + np.cos(vFrec*2*np.pi*Y)  y luego use las imagenes de GLapadula.
+1. Encontrar la Transformada de Fourier usando NumPy:
+NumPy incluye el paquete FFT para este propósito. La función np.fft.fft2() nos proporciona la transformación al dominio de la frecuencia, que resulta en una matriz de números complejos. Luego encuentre la FFT inversa utilizando la función np.ifft2().
+
+2. Operaciones en el dominio de la frecuencia:
+Ahora podemos realizar algunas operaciones en el dominio de la frecuencia, como el filtrado de paso alto (FPA) y la reconstrucción de la imagen original, es decir, calcular la Transformada de Fourier Inversa. Para aplicar el filtro de paso alto, eliminamos las bajas frecuencias utilizando una máscara definida por una ventana rectangular (en este caso, de tamaño 60×60).
+
+3. Desplazar la componente de frecuencia cero al centro:
+Por defecto, la componente de frecuencia cero (también conocida como componente DC) se encuentra en la esquina superior izquierda de la matriz de frecuencia. Si deseas moverla al centro, puedes desplazar el resultado N/2 en ambas direcciones utilizando la función np.fft.fftshift() de NumPy.
+
+4. Reconstrucción de la imagen original:
+Encontrar la Transformada de Fourier Inversa, es decir, encontrar DFT inverso. Para eso, simplemente, se debe eliminar las bajas frecuencias utilizando una máscara formada por una ventana rectangular (en este caso utilizaremos una de tamaño 60×60). Usa la función np.fft.ifft2() para obtener la Transformada de Fourier Inversa. El resultado será un número complejo, y puedes obtener el valor absoluto para visualizarlo como una imagen real. Prueve que resultado muestra que el Filtro Pasa Altos (FPA) es una operación efectiva para la detección de bordes
+
+5. Transformada de Fourier en OpenCV (Repetir el proceso con OpenCV)
+Realiza los mismos pasos anteriores utilizando las funciones cv2.dft() para la Transformada de Fourier y cv2.idft() para la Transformada Inversa.
+
+6. Aplicar un Filtro Pasa Bajos (FPB) en su codigo numpy y OpenCV:
+Repita el proceso aplicado un filtro de paso bajo a la imagen. El resultado de este filtro es una imagen desenfocada, ya que se eliminan las altas frecuencias responsables de los detalles finos.
